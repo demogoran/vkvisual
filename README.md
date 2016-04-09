@@ -1,1 +1,1 @@
-VK audio initializer, written on electron.
+VK audio visualizer, written on electron.
