@@ -1,0 +1,16 @@
+#output{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    z-index: 10000000;
+    background: #929292;
+}
+#au_search_items{
+    overflow: auto;
+    height: 230px;
+    --b: 1px solid grey;
+    border-bottom: var(--b);
+    border-right: var(--b);
+}

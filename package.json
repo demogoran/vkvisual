@@ -1,0 +1,10 @@
+{
+  "name": "APP_NAME",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sequelize": "^3.19.3",
+    "socket.io": "^1.4.5",
+    "tedious": "^1.13.2"
+  }
+}
