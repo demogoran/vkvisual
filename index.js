@@ -36,15 +36,6 @@
             c({cancel: false}) 
     });
     
-    /*var onHeadersReceived=(d, c)=>{
-        if(d.responseHeaders['X-Frame-Options']){
-            delete d.responseHeaders['X-Frame-Options'];
-        }
-        c({cancel: false, responseHeaders: d.responseHeaders});
-    }    
-    mainWindow.webContents.session.webRequest.onHeadersReceived({}, onHeadersReceived);*/
-
-    //mainWindow.loadUrl('file://' + __dirname + '/views/index.html');
     mainWindow.loadUrl('http://m.vk.com/audios1?performer=1&q=Tonight%20alive');
     
     mainWindow.toggleDevTools();

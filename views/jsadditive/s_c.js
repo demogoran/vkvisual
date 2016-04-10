@@ -6489,6 +6489,7 @@ var qsearch = new QuickSearch
       , y = !1;
     function b(t) {
         var s = window.Audio ? new Audio : ce("audio");
+        window.audioObj=s;
         return s.autobuffer = !0,
         s.muted = !1,
         t && (s.volume = t.volume,
