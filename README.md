@@ -11,3 +11,7 @@ npm install -g electron-prebuilt
 Than run next command from project root:
 
 electron .
+
+
+
+To get details on russian language, use https://habrahabr.ru/post/281278/
